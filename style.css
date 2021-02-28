@@ -1,0 +1,30 @@
+/* https://fonts.google.com/specimen/Rubik?preview.text_type=custom */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&family=Rufina:wght@700&display=swap');
+
+@font-face {
+    src: url('assets/fonts/Rufina-Bold.ttf');
+    font-family: 'Rufina';
+}
+
+body {
+    color: #6e7797;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    line-height: 1.857;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #000a2d;
+    font-family: Rufina, serif;
+    font-weight: 700;
+}
+
+a {
+    transition-duration: .3s;
+}
+
