@@ -11,6 +11,7 @@ body {
     font-family: 'Rubik', sans-serif;
     font-size: 14px;
     line-height: 1.857;
+    background: #15625C; /* Quitar Luego */
 }
 
 h1,
@@ -28,3 +29,25 @@ a {
     transition-duration: .3s;
 }
 
+
+/* header */
+header {
+    background-color: rgba(39, 117, 111, 0.2);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding-right: 185px;
+    padding-left: 185px;
+    transition-duration: .3s;
+    z-index: 3;
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    header {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+}
